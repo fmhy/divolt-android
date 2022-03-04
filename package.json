@@ -9,6 +9,7 @@
   "author": "Paul Makles <insrt.uk>",
   "license": "MIT",
   "scripts": {
-    "build": "bubblewrap build"
+    "build": "bubblewrap build",
+    "install": "bubblewrap install"
   }
 }
