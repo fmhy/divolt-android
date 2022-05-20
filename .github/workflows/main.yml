@@ -17,6 +17,7 @@ jobs:
     - name: Setup Java
       uses: actions/setup-java@v3
       with:
+        distribution: 'adopt'
         java-version: '11.x'
     - name: Generate key
       run: keytool -genkey -dname "cn=GitHub Actions, ou=Unknown, o=Unknown, l=Unknown, st=Unknown, c=Unknown" -keystore android.keystore -storepass debugbuild -alias android -keyalg RSA -keysize 4096 -validity 10000 -v
