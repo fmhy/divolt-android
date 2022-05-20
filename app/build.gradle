@@ -22,10 +22,10 @@ plugins {
 
 def twaManifest = [
     applicationId: 'chat.revolt.app.twa',
-    hostName: 'app.revolt.chat', // The domain being opened in the TWA.
+    hostName: 'divolt.xyz', // The domain being opened in the TWA.
     launchUrl: '/', // The start path for the TWA. Must be relative to the domain.
-    name: 'Revolt', // The application name.
-    launcherName: 'Revolt', // The name shown on the Android Launcher.
+    name: 'Divolt', // The application name.
+    launcherName: 'Divolt', // The name shown on the Android Launcher.
     themeColor: '#101823', // The color used for the status bar.
     navigationColor: '#000000', // The color used for the navigation bar.
     navigationColorDark: '#000000', // The color used for the dark navbar.
@@ -72,7 +72,7 @@ android {
             // The URL the Web Manifest for the Progressive Web App that the TWA points to. This
             // is used by Chrome OS to open the Web version of the PWA instead of the TWA, as it
             // will probably give a better user experience for non-mobile devices.
-            resValue "string", "webManifestUrl", 'https://app.revolt.chat/manifest.webmanifest'
+            resValue "string", "webManifestUrl", 'https://divolt.xyz/manifest.webmanifest'
         
 
         
