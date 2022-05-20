@@ -17,7 +17,4 @@ keytool -genkey -v -keystore android.keystore -alias android -keyalg RSA -keysiz
 
 You'll also need Bubblewrap: `npm i -g @bubblewrap/cli`
 
-After you have it, and you can start building:
-
-1. `yarn`
-2. `yarn build`
+After you have it, and you can start building by doing `bubblewrap build`.
