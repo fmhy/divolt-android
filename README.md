@@ -12,7 +12,7 @@ Automatic builds are made with [GitHub Actions.](https://github.com/ggtylerr/div
 To manually build, you'll need the `android.keystore`, and your own signing key:
 
 ```sh
-keytool -genkey -v -keystore android.keystore -alias revolt -keyalg RSA -keysize 2048 -validity 10000
+keytool -genkey -v -keystore android.keystore -alias android -keyalg RSA -keysize 2048 -validity 10000
 ```
 
 After you have it, and you can start building:
