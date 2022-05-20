@@ -9,11 +9,13 @@ This is a fork of Revolt's Android TWA (Trusted Web Activity) for Divolt, a self
 
 Automatic builds are made with [GitHub Actions.](https://github.com/ggtylerr/divolt-android/actions)
 
-To manually build, you'll need the `android.keystore`, and your own signing key:
+To manually build, you'll need the [Java 11.](https://adoptium.net/temurin/releases?version=11) Then generate `android.keystore`:
 
 ```sh
 keytool -genkey -v -keystore android.keystore -alias android -keyalg RSA -keysize 2048 -validity 10000
 ```
+
+You'll also need Bubblewrap: `npm i -g @bubblewrap/cli`
 
 After you have it, and you can start building:
 
