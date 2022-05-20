@@ -7,7 +7,7 @@ This is a fork of Revolt's Android TWA (Trusted Web Activity) for Divolt, a self
 
 ## Build
 
-Automatic builds are made with [GitHub Actions.](https://github.com/ggtylerr/divolt-android/actions)
+~~Automatic builds are made with [GitHub Actions.](https://github.com/ggtylerr/divolt-android/actions)~~ Automatic builds are currently not done as GH Actions doesn't support prompts. Work is being done to fix this, but right now, all releases are manually built.
 
 To manually build, you'll need the [Java 11.](https://adoptium.net/temurin/releases?version=11) Then generate `android.keystore`:
 
