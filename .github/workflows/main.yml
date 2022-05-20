@@ -23,30 +23,20 @@ jobs:
       run: keytool -genkey -dname "cn=GitHub Actions, ou=Unknown, o=Unknown, l=Unknown, st=Unknown, c=Unknown" -keystore android.keystore -storepass debugbuild -alias android -keyalg RSA -keysize 4096 -validity 10000 -v
     - name: Install Bubblewrap
       run: npm i -g @bubblewrap/cli
-    - name: Install Yarn
-      run: yarn
+    - name: Install expect
+      run: sudo apt-get -y expect
     - name: Build
       id: build
-      run: yarn build
+      run: expect -f script.exp
     - name: Publish APK
       uses: actions/upload-artifact@v2
       with:
         path: ~/app-release-signed.apk
         name: Revolt-APK
-  
-  publish:
-    runs-on: ubuntu-latest
-    needs: build
-    steps:
-    - uses: actions/checkout@master
-    - name: Download Artifacts
-      uses: actions/download-artifact@v3
-      with:
-        path: ~/artifacts
     - name: Make release
       uses: ncipollo/release-action@v1
       with:
-        artifacts: "~/artifacts/*"
+        artifacts: "~/*.apk"
         body: "This is an automated release. There may be bugs."
         tag: ${{ github.run_id }}
         token: ${{ secrets.GITHUB_TOKEN }}
