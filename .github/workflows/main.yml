@@ -24,7 +24,7 @@ jobs:
     - name: Install Bubblewrap
       run: npm i -g @bubblewrap/cli
     - name: Install expect
-      run: sudo apt-get -y expect
+      run: sudo apt-get install -y expect
     - name: Build
       id: build
       run: expect -f script.exp
