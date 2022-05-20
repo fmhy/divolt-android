@@ -1,6 +1,6 @@
 {
   "packageId": "chat.revolt.app.twa",
-  "host": "app.revolt.chat",
+  "host": "divolt.xyz",
   "name": "Revolt",
   "launcherName": "Revolt",
   "display": "standalone",
@@ -12,9 +12,9 @@
   "backgroundColor": "#101823",
   "enableNotifications": true,
   "startUrl": "/",
-  "iconUrl": "https://app.revolt.chat/assets/icons/android-chrome-512x512.png",
-  "maskableIconUrl": "https://app.revolt.chat/assets/icons/masking-512x512.png",
-  "monochromeIconUrl": "https://app.revolt.chat/assets/icons/monochrome.svg",
+  "iconUrl": "https://divolt.xyz/assets/icons/android-chrome-512x512.png",
+  "maskableIconUrl": "https://divolt.xyz/assets/icons/masking-512x512.png",
+  "monochromeIconUrl": "https://divolt.xyz/assets/icons/monochrome.svg",
   "splashScreenFadeOutDuration": 300,
   "signingKey": {
     "path": "./android.keystore",
@@ -24,7 +24,7 @@
   "appVersionCode": 7,
   "shortcuts": [],
   "generatorApp": "bubblewrap-cli",
-  "webManifestUrl": "https://app.revolt.chat/manifest.webmanifest",
+  "webManifestUrl": "https://divolt.xyz/manifest.webmanifest",
   "fallbackType": "customtabs",
   "features": {},
   "alphaDependencies": {
