@@ -21,7 +21,7 @@ plugins {
 }
 
 def twaManifest = [
-    applicationId: 'chat.revolt.app.twa',
+    applicationId: 'divolt.app.twa',
     hostName: 'divolt.xyz', // The domain being opened in the TWA.
     launchUrl: '/', // The start path for the TWA. Must be relative to the domain.
     name: 'Divolt', // The application name.
@@ -52,11 +52,11 @@ def twaManifest = [
 android {
     compileSdkVersion 31
     defaultConfig {
-        applicationId "chat.revolt.app.twa"
+        applicationId "divolt.app.twa"
         minSdkVersion 19
         targetSdkVersion 31
-        versionCode 7
-        versionName "7"
+        versionCode 10
+        versionName "10"
 
         // The name for the application
         resValue "string", "appName", twaManifest.name

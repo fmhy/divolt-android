@@ -23,10 +23,8 @@ After you have it, and you can start building by doing `bubblewrap build`.
 
 If you're having problems, first try installing / updating `Android System Webview`(https://play.google.com/store/apps/details?id=com.google.android.webview), and if that doesn't work, then update your browser. Also, check if the problem you have occurs when you [go to the website in your browser.](https://divolt.xyz)
 
-If all else fails, and it's not listed in the known bugs, please [create an issue](https://github.com/ggtylerr/divolt-android/issues) and let us know :)
+If all else fails, and it's not listed in the known bugs, please [report an issue](https://github.com/ggtylerr/divolt-android/issues) and let us know :)
 
 ## Known Bugs
 
-* Revolt and Divolt cannot be installed alongside eachother.
-
-This is due to them having the same ID, and changing it would require refactoring all files, and thus, making upstream fetches harder. See [Issue #1](https://github.com/ggtylerr/divolt-android/issues/1) for this.
+None at the moment!

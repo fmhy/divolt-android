@@ -1,8 +1,8 @@
 {
   "packageId": "chat.revolt.app.twa",
   "host": "divolt.xyz",
-  "name": "Revolt",
-  "launcherName": "Revolt",
+  "name": "Divolt",
+  "launcherName": "Divolt",
   "display": "standalone",
   "themeColor": "#101823",
   "navigationColor": "#000000",
@@ -20,8 +20,8 @@
     "path": "./android.keystore",
     "alias": "android"
   },
-  "appVersionName": "7",
-  "appVersionCode": 7,
+  "appVersionName": "10",
+  "appVersionCode": 10,
   "shortcuts": [],
   "generatorApp": "bubblewrap-cli",
   "webManifestUrl": "https://divolt.xyz/manifest.webmanifest",
@@ -36,5 +36,5 @@
   "fingerprints": [],
   "additionalTrustedOrigins": [],
   "retainedBundles": [],
-  "appVersion": "7"
+  "appVersion": "10"
 }
