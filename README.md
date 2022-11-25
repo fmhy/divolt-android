@@ -3,7 +3,7 @@
 This is a fork of Revolt's Android TWA (Trusted Web Activity) for Divolt, a self-hosted instance of Revolt.
 
 - [Get the latest APK](https://github.com/ggtylerr/divolt-android/releases/latest)
-- ~~[Get it with F-droid](#)~~ (soon™) (probably™) (don't count on it though™)
+- [Get it with F-droid](https://fdroid.ggtyler.dev)
 
 ## Build
 
